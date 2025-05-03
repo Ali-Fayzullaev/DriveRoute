@@ -25,7 +25,7 @@ function Header() {
         <div className="container">
           {/* Логотип */}
           <Link
-            className="navbar-brand d-flex align-items-center"
+            className="navbar-brand d-flex align-items-center ms-3 ms-sm-0"
             to="/"
             onClick={() => document.getElementById("home")?.scrollIntoView()}
           >
@@ -43,7 +43,7 @@ function Header() {
 
           {/* Бургер меню кнопкаси */}
           <button
-            className="navbar-toggler"
+            className="navbar-toggler me-3 me-sm-0"
             type="button"
             onClick={() => setExpanded(!expanded)}
             aria-expanded={expanded}
